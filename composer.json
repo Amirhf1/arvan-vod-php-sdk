@@ -1,11 +1,10 @@
 {
-    "name": "arvan vod/arvan-vod",
+    "name": "arvan-vod/arvan-vod",
     "description": "",
     "keywords": [
-        "arvan vod",
-        "arvan-vod"
+        "arvan vod"
     ],
-    "homepage": "https://github.com/arvan vod/arvan-vod",
+    "homepage": "https://github.com/Amirhf1/arvan-vod-php-sdk",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -17,6 +16,7 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
+        "ankitpokhrel/tus-php": "^2.3",
         "illuminate/support": "^8.0"
     },
     "require-dev": {
