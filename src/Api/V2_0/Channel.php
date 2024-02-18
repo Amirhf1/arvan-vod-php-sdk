@@ -1,6 +1,6 @@
 <?php
 
-namespace ArvanVOD\ArvanVod\V2_0;
+namespace ArvanVOD\ArvanVod\Api\V2_0;
 
 use ArvanVOD\ArvanVod\Config\Routes;
 

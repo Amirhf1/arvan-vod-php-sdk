@@ -2,11 +2,11 @@
 
 namespace ArvanVOD\ArvanVod\Api\V2_0;
 
-use Arvan\Vod\ApiException;
-use Arvan\Vod\Configuration;
-use Arvan\Vod\Extensions\CommonFunctions;
-use Arvan\Vod\HeaderSetup;
-use Arvan\Vod\ObjectSerializer;
+use ArvanVOD\ArvanVod\ApiException;
+use ArvanVOD\ArvanVod\Configuration;
+use ArvanVOD\ArvanVod\Extensions\CommonFunctions;
+use ArvanVOD\ArvanVod\HeaderSetup;
+use ArvanVOD\ArvanVod\ObjectSerializer;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\RequestException;
@@ -118,8 +118,6 @@ abstract class BaseClass
 
             return $this->getBodyContents($response->getBody()->getContents(), $statusCode);
         } catch (ApiException $e) {
-            switch ($e->getCode()) {
-            }
             throw $e;
         }
     }
