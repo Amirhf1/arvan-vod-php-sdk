@@ -18,7 +18,7 @@
     "require": {
         "php": "^7.4|^8.0",
         "ankitpokhrel/tus-php": "^2.3",
-        "illuminate/support": "^v8.83.27"
+        "illuminate/support": "^v8"
 
     },
     "require-dev": {
