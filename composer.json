@@ -1,8 +1,9 @@
 {
-    "name": "arvan-vod/arvan-vod",
+    "name": "amirhf-arvan-vod/arvan-vod",
     "description": "",
     "keywords": [
-        "arvan vod"
+        "amirhf-arvan-vod",
+        "arvan-vod"
     ],
     "homepage": "https://github.com/Amirhf1/arvan-vod-php-sdk",
     "license": "MIT",
