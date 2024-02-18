@@ -19,6 +19,7 @@
         "php": "^7.4|^8.0",
         "ankitpokhrel/tus-php": "^2.3",
         "illuminate/support": "^8.0"
+
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
@@ -29,5 +30,5 @@
             "ArvanVOD\\ArvanVod\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
