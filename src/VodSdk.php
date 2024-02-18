@@ -1,15 +1,15 @@
 <?php
 
-namespace Arvan\Vod;
+namespace ArvanVOD\ArvanVod;
 
-use Arvan\Vod\Api\V2_0\Audio;
-use Arvan\Vod\Api\V2_0\Channel;
-use Arvan\Vod\Api\V2_0\File;
-use Arvan\Vod\Api\V2_0\Profile;
-use Arvan\Vod\Api\V2_0\Subtitle;
-use Arvan\Vod\Api\V2_0\UserDomain;
-use Arvan\Vod\Api\V2_0\Video;
-use Arvan\Vod\Api\V2_0\Watermark;
+use ArvanVOD\ArvanVod\Api\V2_0\Audio;
+use ArvanVOD\ArvanVod\Api\V2_0\File;
+use ArvanVOD\ArvanVod\Api\V2_0\Profile;
+use ArvanVOD\ArvanVod\Api\V2_0\Subtitle;
+use ArvanVOD\ArvanVod\Api\V2_0\UserDomain;
+use ArvanVOD\ArvanVod\Api\V2_0\Video;
+use ArvanVOD\ArvanVod\Api\V2_0\Watermark;
+use ArvanVOD\ArvanVod\V2_0\Channel;
 
 final class VodSdk
 {

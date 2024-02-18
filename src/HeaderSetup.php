@@ -1,6 +1,6 @@
 <?php
 
-namespace Arvan\Vod;
+namespace ArvanVOD\ArvanVod;
 
 final class HeaderSetup
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Arvan\Vod\Config;
+namespace ArvanVOD\ArvanVod\Config;
 
 class Routes
 {

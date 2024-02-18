@@ -1,9 +1,9 @@
 <?php
 
-namespace Arvan\Vod\Api\V2_0;
+namespace ArvanVOD\ArvanVod\Api\V2_0;
 
 use Arvan\Vod\ApiException;
-use Arvan\Vod\Config\Routes;
+use ArvanVOD\ArvanVod\Config\Routes;
 use Arvan\Vod\Extensions\CommonFunctions;
 use Arvan\Vod\ObjectSerializer;
 use GuzzleHttp\Exception\RequestException;

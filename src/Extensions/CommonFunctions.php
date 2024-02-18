@@ -1,6 +1,6 @@
 <?php
 
-namespace Arvan\Vod\Extensions;
+namespace ArvanVOD\ArvanVod\Extensions;
 
 trait CommonFunctions
 {
