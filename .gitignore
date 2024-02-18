@@ -1,0 +1,27 @@
+# Composer files
+/vendor/
+/.idea
+/.vscode
+/.phpunit.result.cache
+/.phpunit.cache
+/.phpunit*.*
+
+# Composer lock file
+composer.lock
+
+# Autoload files
+/vendor/autoload.php
+/vendor/composer/autoload_*.php
+/vendor/composer/installed.php
+
+# Environment-specific files
+.env
+.env.*
+
+# IDE files
+*.iml
+.idea/
+.vscode/
+
+# PHPUnit coverage reports
+/coverage/
