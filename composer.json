@@ -25,30 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ArvanVOD\\ArvanVod\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "ArvanVOD\\ArvanVod\\Tests\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "ArvanVOD\\ArvanVod\\ArvanVodServiceProvider"
-            ],
-            "aliases": {
-                "ArvanVod": "ArvanVOD\\ArvanVod\\ArvanVodFacade"
-            }
+            "ArvanVOD\\ArvanVod\\": "src/"
         }
     }
 }
